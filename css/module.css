@@ -1,0 +1,32 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+┏┓
+┗■ INDEX
+
+|   01.見出し
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*--------------------
+    01.見出し
+--------------------*/
+.headline{
+    background: #f1f8ff;
+    border-left: solid 2em #009ABF;
+    padding: 0.3em 0.5em;
+    position: relative;
+}
+.headline:before{
+    color:#fff;
+    content: "\f021";
+    font-family: FontAwesome;
+    font-weight: normal;
+    left: -1.45em;
+    position: absolute;
+    padding: 0em;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+}
